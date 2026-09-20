@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    
 
     const loader = document.getElementById("loader");
 
