@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const year = document.getElementById("year");
 
+    const pythonFloats =
+    document.querySelectorAll(".python-float");
+
+const analystFloats =
+    document.querySelectorAll(".analyst-float");
 
     // =========================
 // LOADER
@@ -96,6 +101,9 @@ setTimeout(() => {
 
         if (!data) return;
 
+
+
+        
 
         // -------------------------
         // BODY THEME
